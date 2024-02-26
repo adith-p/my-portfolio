@@ -1,6 +1,5 @@
 import Image from "next/image";
-import dp from "../public/images/dp.jpg";
-import dppng from "../public/images/dp.png";
+import dppng from "/public/images/dp.png";
 
 const Hero = () => {
     return (
