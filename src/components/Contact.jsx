@@ -20,9 +20,19 @@ const Contact = () => {
                 </ul>
             </div>
 
-            <a href="mailto:adithprakash008@gmail.com" className="cta-btn">
-                Say Hello
-            </a>
+            <div className="button-container"> {/* Added a new container for buttons */}
+                {/* Added a common class for styling */}
+                <a href="mailto:adithprakash008@gmail.com" className="cta-btn btn">
+                    Say Hello
+                </a>
+                <a
+                    href="https://drive.google.com/file/d/1dJysEaCfNhrp56i5Cbvadu7tCu66RInz/view?usp=sharing"
+                    target="_blank"
+                    className="cta-btn btn"
+                >
+                    Download Resume
+                </a>
+            </div>
         </div>
     );
 };

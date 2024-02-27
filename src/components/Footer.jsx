@@ -8,7 +8,7 @@ const Footer = () => {
                 </p>
                 <div className="social_icons">
                     <a
-                        href="https://twitter.com/ad_it_h" target="_blank" aria-label="Twitter"
+                        href="" target="_blank" aria-label="Twitter"
                     >
                         <i className="fa-brands fa-twitter"></i>
                     </a>

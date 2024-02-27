@@ -444,3 +444,14 @@ hr {
 
     margin-bottom: 10px;
 }
+
+
+.button-container {
+    display: flex;
+    /* Makes buttons appear inline */
+}
+
+.btn {
+    margin-right: 10px;
+    /* Adds a margin between buttons */
+}
