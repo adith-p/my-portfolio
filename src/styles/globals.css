@@ -270,27 +270,69 @@ hr {
 }
 
 .skills-container .grid-skills .html:hover {
-    background-color: #E34F26;
+    background-color: #e54c21;
 }
 
 .skills-container .grid-skills .css:hover {
-    background-color: #264DE4;
+    background-color: #2965f1;
 }
 
 .skills-container .grid-skills .js:hover {
-    background-color: #F7DF1E;
-}
-
-.skills-container .grid-skills .react:hover {
-    background-color: #61DAFB;
-}
-
-.skills-container .grid-skills .node:hover {
-    background-color: #339933;
+    background-color: #efd81d;
 }
 
 .skills-container .grid-skills .python:hover {
-    background-color: #3776AB;
+    background-color: #75a8d3;
+}
+
+.skills-container .grid-skills .django:hover {
+    background-color: #51be95;
+    /* Example color for Django */
+}
+
+.skills-container .grid-skills .drf:hover {
+    background-color: #a94b4b;
+    /* Example color for Django Rest Framework */
+}
+
+.skills-container .grid-skills .fastapi:hover {
+    background-color: #009485;
+    /* Example color for FastAPI */
+}
+
+.skills-container .grid-skills .psql:hover {
+    background-color: #679cc7;
+    /* Example color for PostgreSQL */
+}
+
+.skills-container .grid-skills .celery:hover {
+    background-color: #b6de64;
+    /* Example color for Celery */
+}
+
+.skills-container .grid-skills .redis:hover {
+    background-color: #dc382c;
+    /* Example color for Redis */
+}
+
+.skills-container .grid-skills .bootstrap:hover {
+    background-color: #8712fb;
+    /* Example color for Redis */
+}
+
+.skills-container .grid-skills .VSCode:hover {
+    background-color: #21a3f1;
+    /* Example color for Redis */
+}
+
+.skills-container .grid-skills .linux:hover {
+    background-color: #f5be04;
+    /* Example color for Redis */
+}
+
+.skills-container .grid-skills .nginx:hover {
+    background-color: #019137;
+    /* Example color for Redis */
 }
 
 /* Projects */
@@ -388,4 +430,17 @@ hr {
     font-weight: 400;
     margin-bottom: 1rem;
     text-align: center;
+}
+
+.emoji {
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
 }

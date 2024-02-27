@@ -4,11 +4,11 @@ const Footer = () => {
             <hr />
             <div className="footer-container">
                 <p>
-                    © {new Date().getFullYear()} Adith's Portfolio
+                    © {new Date().getFullYear()} Adith Prakash ( you can reuse it)
                 </p>
                 <div className="social_icons">
                     <a
-                        href="" target="_blank" aria-label="Twitter"
+                        href="https://twitter.com/ad_it_h" target="_blank" aria-label="Twitter"
                     >
                         <i className="fa-brands fa-twitter"></i>
                     </a>

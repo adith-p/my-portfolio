@@ -4,12 +4,13 @@ import dppng from "/public/images/dp.png";
 const Hero = () => {
     return (
         <div className="hero-container">
-            <Image src={dppng.src} className="profile-img" width={300} height={300} alt="Joe's personal headshot" />
+            <Image src={dppng.src} className="profile-img" width={300} height={300} alt="Adith's personal headshot" />
             <div className="hero-text">
-                <h1>Hey, I'm Adith 👋</h1>
+
+                <h1> Hey, I'm Adith 👋 </h1>
                 <p>
                     I'm a software developer based in Kerala, India. I specialize in building
-                    API, applications, and everything in between.
+                    API, Backend applications, and everything in between.
                 </p>
                 <div className="social-icons">
                     <a
