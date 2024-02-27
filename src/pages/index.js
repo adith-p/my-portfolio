@@ -5,7 +5,7 @@ import About from '../components/About';
 import Skills from '../components/Skills';
 import Project from '../components/Projects';
 import Contact from '../components/Contact';
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 const Home = () => {
@@ -18,6 +18,7 @@ const Home = () => {
                 <link rel="icon" href="/favicon.jpeg" />
             </Head>
             <div>
+                <SpeedInsights />
                 <Hero />
                 <About />
                 <Skills />
