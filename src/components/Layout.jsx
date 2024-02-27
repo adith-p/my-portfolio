@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 
-const Layout = ({ children }) => {
+const Layouts = ({ children }) => {
     return (
         <>
             <Navbar />
@@ -13,4 +13,4 @@ const Layout = ({ children }) => {
 }
 
 
-export default Layout;
+export default Layouts;
