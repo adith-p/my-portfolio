@@ -8,7 +8,8 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #1D1E20;
+    /* background-color: #1D1E20; */
+    background-color: #000000;
     color: #DADADB;
     width: 900px;
     margin: 0 auto;
@@ -37,7 +38,8 @@ li {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    background-color: #1D1E20;
+    /* background-color: #1D1E20; */
+    background-color: #000000;
 }
 
 .nav-container .logo {
@@ -81,7 +83,8 @@ hr {
     justify-content: space-around;
     align-items: center;
     padding: 2rem 0;
-    background-color: #1D1E20;
+    /* background-color: #1D1E20; */
+    background-color: #000000;
 }
 
 .footer-container p {

@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="nav-container ">
             <div className="logo">
                 <Link href="/">
-                    Adith P | Python Developer
+                    Adith P | Backend Developer
                 </Link>
             </div>
             <a href="https://drive.google.com/file/d/1dJysEaCfNhrp56i5Cbvadu7tCu66RInz/view?usp=sharing" target="_blank" className="cta-btn">Download Resume</a>

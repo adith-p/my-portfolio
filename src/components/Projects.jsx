@@ -7,16 +7,18 @@ const Projects = () => {
             <div className="projects-grid">
                 {projectData && projectData.map((project) => (
                     <div className="project-card" key={project.id}>
-                        <div className="project-header">
-                            <i className="fa-regular fa-folder-open folder-icon"></i>
+                        <a href={project.gitHubLink} target='_blank'>
+                            <div className="project-header">
+                                <i className="fa-regular fa-folder-open folder-icon"></i>
 
-                            <div className="small-icons">
-                                <a href={project.gitHubLink} target='_blank'><i className="fa-brands fa-github"></i></a>
+                                <div className="small-icons">
+                                    <i className="fa-brands fa-github"></i>
+                                </div>
                             </div>
-                        </div>
-                        <h3>{project.title}</h3>
-                        <br />
-                        <p>{project.description}</p>
+                            <h3>{project.title}</h3>
+                            <br />
+                            <p>{project.description}</p>
+                        </a>
                     </div>
                 ))
                 }
