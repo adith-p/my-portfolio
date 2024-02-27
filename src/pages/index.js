@@ -6,6 +6,7 @@ import Skills from '../components/Skills';
 import Project from '../components/Projects';
 import Contact from '../components/Contact';
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react"
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
                 <link rel="icon" href="/favicon.jpeg" />
             </Head>
             <div>
+                <Analytics />
                 <SpeedInsights />
                 <Hero />
                 <About />
