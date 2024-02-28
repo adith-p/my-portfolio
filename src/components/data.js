@@ -10,8 +10,10 @@ export const projectData = [
         id: 2,
         title: 'Django Blog',
         description:
-            ' Django Blog is a web application built with Django that enables users to create, publish, and manage blog posts. It features user registration, post creation and editing, commenting, and search functionality. The application is designed with a responsive layout for optimal user experience across devices.',
-        gitHubLink: 'https://github.com/adith-p/django-blog'
+            ' Django Blog is a web application built with Django that enables users to create, publish, and manage blog posts. It features user registration, post creation and editing, commenting, and search functionality.',
+        gitHubLink: 'https://github.com/adith-p/django-blog',
+        liveLink: 'https://django-blog-adith.vercel.app/',
+
     },
     {
         id: 3,
