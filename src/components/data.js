@@ -26,13 +26,6 @@ export const projectData = [
         title: 'E-commerce API',
         description: ' a robust E-commerce REST API using Django and Django Rest Framework (DRF), implementing modern technologies to manage products, orders, and payments efficiently(Razorpay).',
         gitHubLink: 'https://github.com/adith-p/eCommerce-API'
-    },
-    {
-        id: 5,
-        title: 'Call Me: A Real-time Chat and video App (Ongoing)',
-        description: 'A real-time chat and video app built using Django, Channels And agora.io,with a focus on real-time communication and video calling.',
-        gitHubLink: 'https://github.com/adith-p/Call-Me-App',
-
     }
 
 ]
